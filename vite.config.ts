@@ -6,6 +6,6 @@ export default defineConfig({
   preview: {
     host: '0.0.0.0',
     port: Number(process.env.PORT)|| 8080,
-    allowedHosts: ['healthcheck.railway.app', 'https://portafolio-production-52e5.up.railway.app/'],
+    allowedHosts: ['healthcheck.railway.app', 'https://portafolio-production-52e5.up.railway.app/', 'portafolio-production-52e5.up.railway.app'],
   },
 })
