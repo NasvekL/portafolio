@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "start": "vite preview --host --port $PORT"
+    "start": "node preview.js"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.17",
